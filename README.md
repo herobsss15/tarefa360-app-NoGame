@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Tarefa360 App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
+Aplicação Tarefa360 para gerenciar tarefas, projetos e sprints de uma equipe de desenvolvimento.
 
-## Available Scripts
+## Funcionalidades
+- Gerenciamento de Usuários (Criar, Atualizar, Deletar, Restaurar, Alterar Senha)
+- Gerenciamento de Tarefas
+- Gerenciamento de Projetos
+- Gerenciamento de Sprints
 
-In the project directory, you can run:
+## Estrutura do Projeto
+- **public**: Contém arquivos públicos como `index.html`, `manifest.json`, e `robots.txt`.
+- **src**: Contém o código-fonte da aplicação.
+  - **assets**: Contém os arquivos de mídia.
+  - **componentes**: Contém os componentes reutilizáveis da aplicação.
+    - **Sidebar**: Contém o componente Sidebar.
+    - **SidebarItem**: Contém o componente SidebarItem.
+    - **Topbar**: Contém o componente Topbar.
+  - **paginas**: Contém as páginas da aplicação.
+    - **EditarUsuario**: Contém a página de edição de usuário.
+    - **Home**: Contém a página inicial.
+    - **NovoUsuario**: Contém a página de criação de novo usuário.
+    - **Usuarios**: Contém a página de listagem de usuários.
+  - **services**: Contém os serviços de API.
+  - **App.js**: Componente principal da aplicação.
+  - **index.js**: Ponto de entrada da aplicação.
 
-### `npm start`
+## Instalação
+Para instalar o Tarefa360 App, siga os passos abaixo:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/usuario/Tarefa360-App.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd Tarefa360-App
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Uso
+Para iniciar o Tarefa360 App, execute o comando abaixo:
+    ```bash
+    npm start
+    ```
 
-### `npm test`
+## Contribuição
+Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature:
+    ```bash
+    git checkout -b minha-feature
+    ```
+3. Commit suas mudanças:
+    ```bash
+    git commit -m 'Adiciona minha feature'
+    ```
+4. Faça um push para a branch:
+    ```bash
+    git push origin minha-feature
+    ```
+5. Abra um Pull Request.
 
-### `npm run build`
+## Contato
+Para mais informações, entre em contato pelo email: 
+herobsss15@gmail.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
